@@ -1,6 +1,5 @@
 <?php
 // On démarre la session PHP pour pouvoir stocker des données utilisateur
-// session_start() doit toujours être appelé en tout premier avant tout autre code
 session_start();
 
 // On inclut le modèle User pour pouvoir utiliser ses méthodes register() et login()
